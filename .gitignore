@@ -1,0 +1,6 @@
+/bin/UISpec/UISpec_*.a
+/build
+/xcode/UISpec/build
+/xcode/UISpec/UISpec.xcodeproj/*.mode1v3
+/xcode/UISpec/UISpec.xcodeproj/*.pbxuser
+/xcode/UISpec/UISpec.xcodeproj/*.perspectivev3
