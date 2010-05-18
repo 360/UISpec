@@ -46,6 +46,64 @@
 		2FDBB78110EECE3100193065 /* UIQueryTabBar.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2FDBB75810EECD0200193065 /* UIQueryTabBar.h */; };
 		2FDBB78210EECE3100193065 /* UIQueryWebView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2FDBB75A10EECD0200193065 /* UIQueryWebView.h */; };
 		4CDB4A9E1141ADCB009F6046 /* UILog.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7EFF4D410E40D02007DB16A /* UILog.h */; };
+		501489CF11A2D3010094442F /* UISpec.h in Headers */ = {isa = PBXBuildFile; fileRef = C76EB5F40F74594900EF8398 /* UISpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489D011A2D3010094442F /* UISpec_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = C76EB6230F7459DC00EF8398 /* UISpec_Prefix.pch */; settings = {ATTRIBUTES = (); }; };
+		501489D111A2D3010094442F /* UIQueryTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C76EB7510F76DFF400EF8398 /* UIQueryTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489D211A2D3010094442F /* UIFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = C76EB7540F76DFF400EF8398 /* UIFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489D311A2D3010094442F /* UIQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = C76EB7560F76DFF400EF8398 /* UIQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489D411A2D3010094442F /* UIExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = C76EB7580F76DFF400EF8398 /* UIExpectation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489D511A2D3010094442F /* CallCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C76EB75B0F76DFF400EF8398 /* CallCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489D611A2D3010094442F /* NSNumberCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = C76EB75D0F76DFF400EF8398 /* NSNumberCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489D711A2D3010094442F /* UIQueryTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = C76EB7A10F76F03F00EF8398 /* UIQueryTableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489D811A2D3010094442F /* Recordable.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FE1C2B0F7B26360047857B /* Recordable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489D911A2D3010094442F /* ViewFilterSwizzler.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FE1D9A0F7D6B060047857B /* ViewFilterSwizzler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489DA11A2D3010094442F /* UIQueryAll.h in Headers */ = {isa = PBXBuildFile; fileRef = C7FE1DF90F7D6D7C0047857B /* UIQueryAll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489DB11A2D3010094442F /* UIProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E953540F81799A005FC682 /* UIProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489DC11A2D3010094442F /* ReturnCacher.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E9535A0F818688005FC682 /* ReturnCacher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489DD11A2D3010094442F /* WaitUntilIdle.h in Headers */ = {isa = PBXBuildFile; fileRef = C7407B58101AA2F900E5392C /* WaitUntilIdle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489DE11A2D3010094442F /* UIChildren.h in Headers */ = {isa = PBXBuildFile; fileRef = C7653A8E1023BE15001FF86B /* UIChildren.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489DF11A2D3010094442F /* UIDescendants.h in Headers */ = {isa = PBXBuildFile; fileRef = C7653A901023BE15001FF86B /* UIDescendants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489E011A2D3010094442F /* UIParents.h in Headers */ = {isa = PBXBuildFile; fileRef = C7653A921023BE15001FF86B /* UIParents.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489E111A2D3010094442F /* UIRedoer.h in Headers */ = {isa = PBXBuildFile; fileRef = C7653B5F1023FD63001FF86B /* UIRedoer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489E211A2D3010094442F /* UIInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = C77AB48E103F298700FDCEEB /* UIInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489E311A2D3010094442F /* UIBug.h in Headers */ = {isa = PBXBuildFile; fileRef = C77AB490103F298700FDCEEB /* UIBug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		501489E411A2D3010094442F /* UIConsole.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D32A91103F40DF00071AE1 /* UIConsole.h */; };
+		501489E511A2D3010094442F /* UIMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C708D8EE10C4B86A000A2462 /* UIMatcher.h */; };
+		501489E611A2D3010094442F /* UIQueryExpectation.h in Headers */ = {isa = PBXBuildFile; fileRef = C77A47CE10C9903B00C1BF8D /* UIQueryExpectation.h */; };
+		501489E711A2D3010094442F /* UILog.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EFF4D410E40D02007DB16A /* UILog.h */; };
+		501489E811A2D3010094442F /* UIConsoleLog.h in Headers */ = {isa = PBXBuildFile; fileRef = C7EFF50B10E41565007DB16A /* UIConsoleLog.h */; };
+		501489E911A2D3010094442F /* UIQuerySearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDBB75410EECD0200193065 /* UIQuerySearchBar.h */; };
+		501489EA11A2D3010094442F /* UIQuerySegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDBB75610EECD0200193065 /* UIQuerySegmentedControl.h */; };
+		501489EB11A2D3010094442F /* UIQueryTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDBB75810EECD0200193065 /* UIQueryTabBar.h */; };
+		501489EC11A2D3010094442F /* UIQueryWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FDBB75A10EECD0200193065 /* UIQueryWebView.h */; };
+		501489EE11A2D3010094442F /* UISpec.m in Sources */ = {isa = PBXBuildFile; fileRef = C76EB5F50F74594900EF8398 /* UISpec.m */; };
+		501489EF11A2D3010094442F /* UIQueryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C76EB7520F76DFF400EF8398 /* UIQueryTableViewCell.m */; };
+		501489F011A2D3010094442F /* UIFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C76EB7550F76DFF400EF8398 /* UIFilter.m */; };
+		501489F111A2D3010094442F /* UIQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = C76EB7570F76DFF400EF8398 /* UIQuery.m */; };
+		501489F211A2D3010094442F /* UIExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = C76EB7590F76DFF400EF8398 /* UIExpectation.m */; };
+		501489F311A2D3010094442F /* CallCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C76EB75C0F76DFF400EF8398 /* CallCache.m */; };
+		501489F411A2D3010094442F /* NSNumberCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = C76EB75E0F76DFF400EF8398 /* NSNumberCreator.m */; };
+		501489F511A2D3010094442F /* UIQueryTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C76EB7A20F76F03F00EF8398 /* UIQueryTableView.m */; };
+		501489F611A2D3010094442F /* Recordable.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FE1C2C0F7B26360047857B /* Recordable.m */; };
+		501489F711A2D3010094442F /* ViewFilterSwizzler.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FE1D9B0F7D6B060047857B /* ViewFilterSwizzler.m */; };
+		501489F811A2D3010094442F /* UIQueryAll.m in Sources */ = {isa = PBXBuildFile; fileRef = C7FE1DFA0F7D6D7C0047857B /* UIQueryAll.m */; };
+		501489F911A2D3010094442F /* UIProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E953550F81799A005FC682 /* UIProxy.m */; };
+		501489FA11A2D3010094442F /* ReturnCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E9535B0F818688005FC682 /* ReturnCacher.m */; };
+		501489FB11A2D3010094442F /* WaitUntilIdle.m in Sources */ = {isa = PBXBuildFile; fileRef = C7407B59101AA2FA00E5392C /* WaitUntilIdle.m */; };
+		501489FC11A2D3010094442F /* UIChildren.m in Sources */ = {isa = PBXBuildFile; fileRef = C7653A8F1023BE15001FF86B /* UIChildren.m */; };
+		501489FD11A2D3010094442F /* UIDescendants.m in Sources */ = {isa = PBXBuildFile; fileRef = C7653A911023BE15001FF86B /* UIDescendants.m */; };
+		501489FE11A2D3010094442F /* UIParents.m in Sources */ = {isa = PBXBuildFile; fileRef = C7653A931023BE15001FF86B /* UIParents.m */; };
+		501489FF11A2D3010094442F /* UIRedoer.m in Sources */ = {isa = PBXBuildFile; fileRef = C7653B601023FD63001FF86B /* UIRedoer.m */; };
+		50148A0011A2D3010094442F /* UIInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = C77AB48F103F298700FDCEEB /* UIInspector.m */; };
+		50148A0111A2D3010094442F /* UIBug.m in Sources */ = {isa = PBXBuildFile; fileRef = C77AB491103F298700FDCEEB /* UIBug.m */; };
+		50148A0211A2D3010094442F /* UIConsole.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D32A92103F40DF00071AE1 /* UIConsole.m */; };
+		50148A0311A2D3010094442F /* UIMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C708D8EF10C4B86A000A2462 /* UIMatcher.m */; };
+		50148A0411A2D3010094442F /* UIQueryExpectation.m in Sources */ = {isa = PBXBuildFile; fileRef = C77A47CF10C9903B00C1BF8D /* UIQueryExpectation.m */; };
+		50148A0511A2D3010094442F /* UIConsoleLog.m in Sources */ = {isa = PBXBuildFile; fileRef = C7EFF50C10E41565007DB16A /* UIConsoleLog.m */; };
+		50148A0611A2D3010094442F /* UIQuerySearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBB75510EECD0200193065 /* UIQuerySearchBar.m */; };
+		50148A0711A2D3010094442F /* UIQuerySegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBB75710EECD0200193065 /* UIQuerySegmentedControl.m */; };
+		50148A0811A2D3010094442F /* UIQueryTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBB75910EECD0200193065 /* UIQueryTabBar.m */; };
+		50148A0911A2D3010094442F /* UIQueryWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FDBB75B10EECD0200193065 /* UIQueryWebView.m */; };
 		C708D8F010C4B86A000A2462 /* UIMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C708D8EF10C4B86A000A2462 /* UIMatcher.m */; };
 		C708D8F110C4B86A000A2462 /* UIMatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = C708D8EE10C4B86A000A2462 /* UIMatcher.h */; };
 		C708D8F210C4B86A000A2462 /* UIMatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C708D8EF10C4B86A000A2462 /* UIMatcher.m */; };
@@ -273,6 +331,7 @@
 		2FDBB75910EECD0200193065 /* UIQueryTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIQueryTabBar.m; sourceTree = "<group>"; };
 		2FDBB75A10EECD0200193065 /* UIQueryWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIQueryWebView.h; sourceTree = "<group>"; };
 		2FDBB75B10EECD0200193065 /* UIQueryWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIQueryWebView.m; sourceTree = "<group>"; };
+		50148A0E11A2D3010094442F /* UISpec.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = UISpec.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C708D8EE10C4B86A000A2462 /* UIMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMatcher.h; sourceTree = "<group>"; };
 		C708D8EF10C4B86A000A2462 /* UIMatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMatcher.m; sourceTree = "<group>"; };
 		C7407B58101AA2F900E5392C /* WaitUntilIdle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitUntilIdle.h; sourceTree = "<group>"; };
@@ -377,6 +436,7 @@
 				C76EB5D20F74586B00EF8398 /* UISpec_Simulator.a */,
 				C76EB5DA0F7458C100EF8398 /* UISpec_Device.a */,
 				C7D4F29310BDA39C00B00019 /* Specs.app */,
+				50148A0E11A2D3010094442F /* UISpec.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -486,6 +546,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		501489CE11A2D3010094442F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501489CF11A2D3010094442F /* UISpec.h in Headers */,
+				501489D011A2D3010094442F /* UISpec_Prefix.pch in Headers */,
+				501489D111A2D3010094442F /* UIQueryTableViewCell.h in Headers */,
+				501489D211A2D3010094442F /* UIFilter.h in Headers */,
+				501489D311A2D3010094442F /* UIQuery.h in Headers */,
+				501489D411A2D3010094442F /* UIExpectation.h in Headers */,
+				501489D511A2D3010094442F /* CallCache.h in Headers */,
+				501489D611A2D3010094442F /* NSNumberCreator.h in Headers */,
+				501489D711A2D3010094442F /* UIQueryTableView.h in Headers */,
+				501489D811A2D3010094442F /* Recordable.h in Headers */,
+				501489D911A2D3010094442F /* ViewFilterSwizzler.h in Headers */,
+				501489DA11A2D3010094442F /* UIQueryAll.h in Headers */,
+				501489DB11A2D3010094442F /* UIProxy.h in Headers */,
+				501489DC11A2D3010094442F /* ReturnCacher.h in Headers */,
+				501489DD11A2D3010094442F /* WaitUntilIdle.h in Headers */,
+				501489DE11A2D3010094442F /* UIChildren.h in Headers */,
+				501489DF11A2D3010094442F /* UIDescendants.h in Headers */,
+				501489E011A2D3010094442F /* UIParents.h in Headers */,
+				501489E111A2D3010094442F /* UIRedoer.h in Headers */,
+				501489E211A2D3010094442F /* UIInspector.h in Headers */,
+				501489E311A2D3010094442F /* UIBug.h in Headers */,
+				501489E411A2D3010094442F /* UIConsole.h in Headers */,
+				501489E511A2D3010094442F /* UIMatcher.h in Headers */,
+				501489E611A2D3010094442F /* UIQueryExpectation.h in Headers */,
+				501489E711A2D3010094442F /* UILog.h in Headers */,
+				501489E811A2D3010094442F /* UIConsoleLog.h in Headers */,
+				501489E911A2D3010094442F /* UIQuerySearchBar.h in Headers */,
+				501489EA11A2D3010094442F /* UIQuerySegmentedControl.h in Headers */,
+				501489EB11A2D3010094442F /* UIQueryTabBar.h in Headers */,
+				501489EC11A2D3010094442F /* UIQueryWebView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C76EB5CE0F74586B00EF8398 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -563,6 +660,22 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		501489CD11A2D3010094442F /* UISpec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50148A0B11A2D3010094442F /* Build configuration list for PBXNativeTarget "UISpec" */;
+			buildPhases = (
+				501489CE11A2D3010094442F /* Headers */,
+				501489ED11A2D3010094442F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UISpec;
+			productName = UISpec_Device;
+			productReference = 50148A0E11A2D3010094442F /* UISpec.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		C76EB5D10F74586B00EF8398 /* UISpec_Simulator */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C76EB5D50F7458BF00EF8398 /* Build configuration list for PBXNativeTarget "UISpec_Simulator" */;
@@ -626,6 +739,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				501489CD11A2D3010094442F /* UISpec */,
 				C76EB5D10F74586B00EF8398 /* UISpec_Simulator */,
 				C76EB5D90F7458C100EF8398 /* UISpec_Device */,
 				C76EB5DF0F7458EF00EF8398 /* UISpec_Universal */,
@@ -662,6 +776,41 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		501489ED11A2D3010094442F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				501489EE11A2D3010094442F /* UISpec.m in Sources */,
+				501489EF11A2D3010094442F /* UIQueryTableViewCell.m in Sources */,
+				501489F011A2D3010094442F /* UIFilter.m in Sources */,
+				501489F111A2D3010094442F /* UIQuery.m in Sources */,
+				501489F211A2D3010094442F /* UIExpectation.m in Sources */,
+				501489F311A2D3010094442F /* CallCache.m in Sources */,
+				501489F411A2D3010094442F /* NSNumberCreator.m in Sources */,
+				501489F511A2D3010094442F /* UIQueryTableView.m in Sources */,
+				501489F611A2D3010094442F /* Recordable.m in Sources */,
+				501489F711A2D3010094442F /* ViewFilterSwizzler.m in Sources */,
+				501489F811A2D3010094442F /* UIQueryAll.m in Sources */,
+				501489F911A2D3010094442F /* UIProxy.m in Sources */,
+				501489FA11A2D3010094442F /* ReturnCacher.m in Sources */,
+				501489FB11A2D3010094442F /* WaitUntilIdle.m in Sources */,
+				501489FC11A2D3010094442F /* UIChildren.m in Sources */,
+				501489FD11A2D3010094442F /* UIDescendants.m in Sources */,
+				501489FE11A2D3010094442F /* UIParents.m in Sources */,
+				501489FF11A2D3010094442F /* UIRedoer.m in Sources */,
+				50148A0011A2D3010094442F /* UIInspector.m in Sources */,
+				50148A0111A2D3010094442F /* UIBug.m in Sources */,
+				50148A0211A2D3010094442F /* UIConsole.m in Sources */,
+				50148A0311A2D3010094442F /* UIMatcher.m in Sources */,
+				50148A0411A2D3010094442F /* UIQueryExpectation.m in Sources */,
+				50148A0511A2D3010094442F /* UIConsoleLog.m in Sources */,
+				50148A0611A2D3010094442F /* UIQuerySearchBar.m in Sources */,
+				50148A0711A2D3010094442F /* UIQuerySegmentedControl.m in Sources */,
+				50148A0811A2D3010094442F /* UIQueryTabBar.m in Sources */,
+				50148A0911A2D3010094442F /* UIQueryWebView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C76EB5CF0F74586B00EF8398 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -804,6 +953,48 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
 				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+		50148A0C11A2D3010094442F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UISpec_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = UISpec;
+				SDKROOT = iphoneos4.0;
+				VALID_ARCHS = "armv6 armv7 i386";
+			};
+			name = Debug;
+		};
+		50148A0D11A2D3010094442F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = UISpec_Prefix.pch;
+				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = NO;
+				PREBINDING = NO;
+				PRODUCT_NAME = UISpec;
+				SDKROOT = iphoneos4.0;
+				VALID_ARCHS = "armv6 armv7 i386";
+				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
@@ -966,6 +1157,15 @@
 			buildConfigurations = (
 				1DEB91F008733DB70010E9CD /* Debug */,
 				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50148A0B11A2D3010094442F /* Build configuration list for PBXNativeTarget "UISpec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50148A0C11A2D3010094442F /* Debug */,
+				50148A0D11A2D3010094442F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
