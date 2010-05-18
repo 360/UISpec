@@ -657,7 +657,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# remove existing product lib file, just in case\nrm -rf build/${BUILD_STYLE}-iphoneos/UISpec_${BUILD_STYLE}.a\n\n# combine lib files for various platforms into one\nlipo -create \"build/${BUILD_STYLE}-iphoneos/UISpec_Device.a\" \"build/${BUILD_STYLE}-iphonesimulator/UISpec_Simulator.a\" -output ../../bin/UISpec/UISpec_1_0.a";
+			shellScript = "# remove existing product lib file, just in case\nrm -rf build/${BUILD_STYLE}-iphoneos/UISpec_${BUILD_STYLE}.a\n\n# combine lib files for various platforms into one\nlipo -create \"build/${BUILD_STYLE}-iphoneos/UISpec_Device.a\" \"build/${BUILD_STYLE}-iphoneos/UISpec_Simulator.a\" -output ../../bin/UISpec/UISpec_1_0.a\n\nif [ $? -ne 0 ]; then\n\tlipo -create \"build/${BUILD_STYLE}-iphonesimulator/UISpec_Device.a\" \"build/${BUILD_STYLE}-iphonesimulator/UISpec_Simulator.a\" -output ../../bin/UISpec/UISpec_1_0.a\nelse\n\texit 1\nfi\n\nexit 0\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
